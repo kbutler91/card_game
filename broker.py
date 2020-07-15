@@ -15,7 +15,6 @@ class Broker():
     It contains an optional parameter that you can set to stop
     the play after a certain number of rounds, called limit.
 
-    Do not change this code.  Your code must work with it.
     """
 
     def __init__(self, limit = 1000):
