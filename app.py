@@ -10,7 +10,8 @@ def main():
     rounds = 1000
     broker = Broker(rounds)
     broker.setup()
-    broker.play()
-    return broker.display_results()
+    show = broker.play()
+    broker.display_results()
+    return show
 
 
