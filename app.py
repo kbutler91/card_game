@@ -11,8 +11,7 @@ def main():
     broker = Broker(rounds)
     broker.setup()
     broker.play()
-    show = broker.play()
     broker.display_results()
-    return show
+    return broker.play(), broker.display_results()
 
 
